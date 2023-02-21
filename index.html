@@ -65,6 +65,36 @@
               <use href="./images/icons.svg#icon-close-black"></use>
              </svg>
            </button>
+           <p class="form-text">Leave your contacts and we will call you back</p>
+           <form class="form">
+            <div class="form-field">
+              <label for="name">Name</label>
+            <input type="text" name="" id="name" autofocus>
+            </div>
+
+           <div class="form-field">
+             <label for="tel">Phone</label>
+            <input type="tel" name="tel" id="tel">
+           </div>
+
+           <div class="form-field">
+             <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+           </div>
+
+            <div class="form-field comment">
+              <label for="comment">Comment</label>
+              <textarea name="comment" id="comment" placeholder="Text input" rows="6" class="comment-input"></textarea>
+            </div>
+
+            <div class="form-field policy">
+              <input type="checkbox" name="policy" id="policy">
+              <label for="policy" class="policy-text">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+            </div>
+            
+            <button type="submit" class="form-button">Send</button>
+
+           </form>
           </div>
         </div>
       <section class="advantages">
@@ -381,43 +411,57 @@
       <div class="container-footer container">
         <div class="logo-text-container">
           <a href="./index.html" class="footer-logo"><span>Web</span>Studio</a>
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+          <p class="footer-text">
+           Increase the flow of customers and sales for your business with
+           digital marketing & growth solutions.
+          </p>
         </div>
         <div class="social-media-footer-container">
           <p class="social-media-footer-text">Social media</p>
-        <ul class="social-media-footer list">
-          <li class="social-items-footer">
+           <ul class="social-media-footer list">
+            <li class="social-items-footer">
             <a href="" class="link-footer">
               <svg class="footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
-          </li>
-          <li class="social-items-footer">
+            </li>
+            <li class="social-items-footer">
             <a href="" class="link-footer" >
               <svg class="footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
-          </li>
-          <li class="social-items-footer">
+            </li>
+            <li class="social-items-footer">
             <a href="" class="link-footer">
               <svg class="footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
-          </li>
-          <li class="social-items-footer">
+            </li>
+            <li class="social-items-footer">
             <a href="" class="link-footer">
               <svg class="footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
-          </li>
-        </ul>
+            </li>
+           </ul>
+        </div>
+          <div class="footer-form-main-container">
+            <p class="footer-text-form">Subscribe</p>
+            <form action="" class="footer-form">
+              <div class="footer-form-container">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <button type="submit" class="footer-form-button">Subscribe
+                  <svg class="footer-form-icon" width="24" height="24">
+                   <use href="./images/icons.svg#icon-plane"></use>
+                  </svg>
+                </button>  
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
